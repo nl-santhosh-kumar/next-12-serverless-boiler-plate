@@ -1,0 +1,26 @@
+{
+  "name": "next-12-boiler-plate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "yarn build && serverless"
+  },
+  "dependencies": {
+    "next": "12.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@sls-next/aws-cloudfront": "3.6.0",
+    "@sls-next/aws-lambda": "3.6.0",
+    "@sls-next/aws-sqs": "^3.5.3",
+    "@sls-next/domain": "^3.5.3",
+    "@sls-next/serverless-component": "3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "8.32.0",
+    "eslint-config-next": "12.3.4"
+  }
+}

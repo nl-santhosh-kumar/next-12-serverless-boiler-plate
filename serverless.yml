@@ -1,0 +1,2 @@
+next-12-boiler-plate:
+  component : "./node_modules/@sls-next/serverless-component"
